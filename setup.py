@@ -20,6 +20,8 @@ except ImportError:
     use_setuptools()
     from setuptools import setup, find_packages
 
+import toredis
+
 KEYWORDS = ['tornado', 'redis', 'hiredis', 'tornado redis']
 
 DESCRIPTION = ('Yet Another toredis, Client Pool Supported. '
@@ -27,7 +29,7 @@ DESCRIPTION = ('Yet Another toredis, Client Pool Supported. '
 
 setup(
     name='yatoredis',
-    version='0.1.3',
+    version=toredis.version,
     description=DESCRIPTION,
     keywords=KEYWORDS,
     author='ZY ZHANG',
