@@ -74,6 +74,9 @@ class Client(RedisCommandsMixin):
             :param callback:
                 Optional callback to be triggered upon connection
         """
+        self._host = host
+        self._port = port
+
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM, 0)
         return self._connect(sock, (host, port), callback)
 
