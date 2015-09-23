@@ -29,7 +29,7 @@ setup(
     name='yatoredis',
     version='0.1.3',
     description=DESCRIPTION,
-    keywords=KEYWORDS
+    keywords=KEYWORDS,
     author='ZY ZHANG',
     author_email='idup2x@gmail.com',
     url="http://github.com/bufferx/toredis/",
