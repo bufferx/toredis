@@ -25,7 +25,9 @@ import toredis
 KEYWORDS = ['tornado', 'redis', 'hiredis', 'tornado redis']
 
 DESCRIPTION = ('Yet Another toredis, Client Pool Supported. '
-               'Forked From https://github.com/mrjoes/toredis/')
+               'Forked From https://github.com/mrjoes/toredis/ <br />'
+               'Demo: https://gist.github.com/bufferx/11228374'
+               )
 
 setup(
     name='yatoredis',
